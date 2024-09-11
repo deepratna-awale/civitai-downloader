@@ -50,7 +50,7 @@ def store_token(token: str):
 
 
 def prompt_for_civitai_token():
-    token = input('Please enter your CivitAI API token: ')
+    token = "97a12270b39a84bc0c12801fbb282718"
     store_token(token)
     return token
 
